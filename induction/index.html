@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Power Systems Laboratory</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Induction Machines - Power Systems Laboratory</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Power Systems Laboratory</a>
+                <a class="navbar-brand" href="..">Power Systems Laboratory</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,28 +33,28 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Topics <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="synchronous/" class="dropdown-item">Synchronous Machines</a>
+    <a href="../synchronous/" class="dropdown-item">Synchronous Machines</a>
 </li>
                                     
 <li>
-    <a href="induction/" class="dropdown-item">Induction Machines</a>
+    <a href="./" class="dropdown-item active">Induction Machines</a>
 </li>
                                     
 <li>
-    <a href="experiments/" class="dropdown-item">Experiments</a>
+    <a href="../experiments/" class="dropdown-item">Experiments</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="about/" class="nav-link">About</a>
+                                <a href="../about/" class="nav-link">About</a>
                             </li>
                         </ul>
 
@@ -65,12 +65,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../synchronous/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="synchronous/" class="nav-link">
+                                <a rel="next" href="../experiments/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -92,16 +92,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#power-systems-laboratory" class="nav-link">Power Systems Laboratory</a>
+            <li class="nav-item" data-level="2"><a href="#induction-machines" class="nav-link">Induction Machines</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#features" class="nav-link">Features</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#references" class="nav-link">References</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -109,24 +101,8 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="power-systems-laboratory">Power Systems Laboratory</h1>
-<p>This is the homepage of Power Systems Laboratory at IIT Bombay.</p>
-<h2 id="features">Features</h2>
-<p>Supports inline math like \(x = \sin(\omega t)\) as well as block math like this:
-\begin{align}
-Ax &amp;= b \\
-x &amp;= A^{-1}b
-\end{align}</p>
-<p>Videos can be included as well:</p>
-<!-- The following HTML code is generated from YouTube. Quite straightforward. -->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DzyX_GnSnL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h2 id="references">References</h2>
-<ul>
-<li>Books</li>
-<li>Manuals: <a href="img/test.pdf">pdf</a> or <a href="img/test.pdf" target="_blank">download</a></li>
-</ul></div>
+<h2 id="induction-machines">Induction Machines</h2>
+<p>To be populated.</p></div>
             </div>
         </div>
 
@@ -135,12 +111,12 @@ x &amp;= A^{-1}b
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
+        <script src="../js/base.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -208,8 +184,3 @@ x &amp;= A^{-1}b
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.1.2
-Build Date UTC : 2020-09-11 07:28:01.018548+00:00
--->
